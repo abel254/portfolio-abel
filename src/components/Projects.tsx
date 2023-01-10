@@ -17,7 +17,9 @@ export const Projects = () => {
       description:
         "Responsive personal portfolio: responsiveness enhanced using bootstrap, bootstrap breakpoints, and bootstrap responsive components. Hosted by Vercel",
       imgUrl: projImg1,
-      projLink: "",
+      projLink: "https://portfolio-abel.vercel.app/",
+      sites: true,
+      component: false,
     },
     {
       title: "Extreme Drift",
@@ -26,6 +28,8 @@ export const Projects = () => {
       imgUrl: projImg2,
       projLink:
         "https://responsive-extremedrift-website-icq1n3lx8-abel254.vercel.app/",
+      sites: true,
+      component: false,
     },
     {
       title: "NFT Preview Card Component",
@@ -33,6 +37,8 @@ export const Projects = () => {
       imgUrl: projImg3,
       projLink:
         "https://abel254.github.io/nft-preview-card-component-main-challenge/",
+      sites: false,
+      component: true,
     },
     {
       title: "Product Preview Card Component",
@@ -40,21 +46,34 @@ export const Projects = () => {
       imgUrl: projImg4,
       projLink:
         "https://abel254.github.io/product-preview-card-component-main/",
+      sites: false,
+      component: true,
     },
     {
       title: "Order Summary Component",
       description: "Component Design Challenge. Hosted by  Github",
       imgUrl: projImg5,
       projLink: "https://abel254.github.io/order-summary-component-main/",
+      sites: false,
+      component: true,
     },
-    {
-      title: "Order Summary Component",
-      description: "Component Design Challenge. Hosted by  Github",
-      imgUrl: projImg5,
-      projLink: "https://abel254.github.io/order-summary-component-main/",
-    },
+    // {
+    //   title: "Order Summary Component",
+    //   description: "Component Design Challenge. Hosted by  Github",
+    //   imgUrl: projImg5,
+    //   projLink: "https://abel254.github.io/order-summary-component-main/",
+    //   sites: true,
+    //   component: false
+    // },
   ];
 
+  let websites = projects.filter((value) => {
+    return value.sites === true;
+  });
+
+  let components = projects.filter((value) => {
+    return value.component === true;
+  });
 
   return (
     <section className="project" id="projects">
@@ -63,7 +82,8 @@ export const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              The following are front-end web projects which are not limited to site projects, portfolio, and simple components
+              The following are front-end web projects which are not limited to
+              site projects, portfolio, and simple components
             </p>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav
@@ -90,8 +110,19 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
+                  <Row>
+                    {websites.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ispum</Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  <Row>
+                    {components.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
