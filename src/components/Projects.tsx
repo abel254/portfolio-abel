@@ -8,6 +8,8 @@ const projImg2 = require("../assets/images/project.PNG");
 const projImg3 = require("../assets/images/preview-card.PNG");
 const projImg4 = require("../assets/images/product-preview-card2.PNG");
 const projImg5 = require("../assets/images/order-summary-component.PNG");
+const projImg6 = require("../assets/images/landing-page1.PNG");
+
 const bg = require("../assets/images/bg.PNG");
 
 export const Projects = () => {
@@ -17,7 +19,7 @@ export const Projects = () => {
       description:
         "Responsive personal portfolio: responsiveness enhanced using bootstrap, bootstrap breakpoints, and bootstrap responsive components. Hosted by Vercel",
       imgUrl: projImg1,
-      projLink: "https://portfolio-abel.vercel.app/",
+      projLink: "#",
       sites: true,
       component: false,
     },
@@ -54,6 +56,13 @@ export const Projects = () => {
       description: "Component Design Challenge. Hosted by  Github",
       imgUrl: projImg5,
       projLink: "https://abel254.github.io/order-summary-component-main/",
+      sites: false,
+      component: true,
+    },{
+      title: "Landing Page",
+      description: "Landing Page. Hosted by Vercel",
+      imgUrl: projImg6,
+      projLink: "https://landing-page1-dusky.vercel.app/",
       sites: false,
       component: true,
     },
@@ -110,7 +119,7 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <Row>
+                  <Row className="rrr">
                     {websites.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}

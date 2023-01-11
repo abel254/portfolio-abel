@@ -76,6 +76,10 @@ span.navbar-text{
   display: inline-block;
   margin-left: 14px;
 }
+.rrr{
+  border: 10px solid red;
+  margin: 0 auto;
+}
 .social-icon a{
   width: 42px;
   height: 42px;
