@@ -3,16 +3,12 @@ import "react-multi-carousel/lib/styles.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const progress1 = require("../assets/images/progress1.PNG");
-const progress2 = require("../assets/images/progress3.PNG");
-const progress3 = require("../assets/images/progress4.PNG");
-const progress4 = require("../assets/images/progress2.PNG");
-
 const skill1 = require("../assets/images/react.png");
-const skill2 = require("../assets/images/javascript2.png");
+const skill2 = require("../assets/images/js-logo1.png");
 const skill3 = require("../assets/images/html2.png");
 const skill4 = require("../assets/images/css.png");
 const skill5 = require("../assets/images/typescript.png");
+const skill6 = require("../assets/images/node-js1.png");
 
 export const Skills = () => {
   const responsive = {
@@ -43,7 +39,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                I am competent with React, Typescript, HTML, and CSS when it comes to front-end Web development.
+                With the skills below, I am competent to developing user satisfactory Web applications that are of the global development standard in the current development & technological era.
               </p>
               <Carousel
                 responsive={responsive}
@@ -59,16 +55,20 @@ export const Skills = () => {
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
+                  <img src={skill5} alt="Image" />
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img src={skill6} alt="Image" />
+                  <h5>Node js</h5>
+                </div>
+                <div className="item">
                   <img src={skill3} alt="Image" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
                   <img src={skill4} alt="Image" />
                   <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={skill5} alt="Image" />
-                  <h5>TypeScript</h5>
                 </div>
               </Carousel>
             </div>

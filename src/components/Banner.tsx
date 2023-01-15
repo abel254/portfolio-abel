@@ -56,7 +56,7 @@ export const Banner = () => {
                <span className="wrap">{text}</span>
             </h1>
             <p>
-             Hi there, I am a software engineer based on developing software products, which includes Web applications and Mobile Apps. I am a long-time learner and open-source enthusiast
+             Hi there, I am a software engineer based on developing software products, which includes Web applications and Mobile Apps. I have the software engineering skills of React, TypeScript, Node js, HTML, CSS( & Bootstrap), and Java-android. I am a long-time learner and open-source enthusiast
             </p>
             <button onClick={() => console.log("connected")}>
               Let's connect

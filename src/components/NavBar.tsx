@@ -5,7 +5,8 @@ import {BsGithub} from 'react-icons/bs'
 import {FaTwitter} from 'react-icons/fa'
  
 
-const logo = require('../assets/images/logo.PNG')
+// const logo = require('../assets/images/logo.PNG')
+const logo = require('../assets/images/portfolio-logo1.png')
 
 const NavBar = () => {
     

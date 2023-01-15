@@ -5,7 +5,7 @@ import {BsGithub} from 'react-icons/bs'
 import {FaTwitter} from 'react-icons/fa'
 import { NewsLetter } from "./NewsLetter";
 
-const logo = require('../assets/images/logo.PNG')
+const logo = require('../assets/images/abel-logo.webp')
 
 export const Footer = () => {
   return (

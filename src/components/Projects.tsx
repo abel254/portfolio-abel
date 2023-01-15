@@ -92,7 +92,7 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>
               The following are front-end web projects which are not limited to
-              site projects, portfolio, and simple components
+              site projects, portfolio, and simple components/landing pages
             </p>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
               <Nav

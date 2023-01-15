@@ -52,6 +52,7 @@ nav.navbar.scrolled{
 }
 nav.navbar a.navbar-brand{
   width: 9%;
+  pointer-events: none;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link{
   font-weight: 400;
@@ -75,10 +76,6 @@ span.navbar-text{
 .social-icon{
   display: inline-block;
   margin-left: 14px;
-}
-.rrr{
-  border: 10px solid red;
-  margin: 0 auto;
 }
 .social-icon a{
   width: 42px;
