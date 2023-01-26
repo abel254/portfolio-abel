@@ -9,11 +9,21 @@ const projImg3 = require("../assets/images/preview-card.PNG");
 const projImg4 = require("../assets/images/product-preview-card2.PNG");
 const projImg5 = require("../assets/images/order-summary-component.PNG");
 const projImg6 = require("../assets/images/landing-page1.PNG");
+const projImg7 = require("../assets/images/amazon-clone.PNG");
 
 const bg = require("../assets/images/bg.PNG");
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Amazone Clone",
+      description:
+        "Simplified amazone clone which fetches data from the Fake store rest API to create the prototype. Adds Items to Cart and Calculates the Total",
+      imgUrl: projImg7,
+      projLink: "https://amazon-clone-sigma-ivory-29.vercel.app/#",
+      sites: true,
+      component: false,
+    },
     {
       title: "Personal Portfolio",
       description:
