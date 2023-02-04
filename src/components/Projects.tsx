@@ -10,7 +10,7 @@ const projImg4 = require("../assets/images/product-preview-card2.PNG");
 const projImg5 = require("../assets/images/order-summary-component.PNG");
 const projImg6 = require("../assets/images/landing-page1.PNG");
 const projImg7 = require("../assets/images/amazon-clone.PNG");
-const projImg8 = require("../assets/images/gitfivver-banner.PNG");
+const projImg8 = require("../assets/images/fivver-banner.PNG");
 
 const bg = require("../assets/images/bg.PNG");
 
