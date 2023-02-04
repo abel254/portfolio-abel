@@ -10,6 +10,7 @@ const projImg4 = require("../assets/images/product-preview-card2.PNG");
 const projImg5 = require("../assets/images/order-summary-component.PNG");
 const projImg6 = require("../assets/images/landing-page1.PNG");
 const projImg7 = require("../assets/images/amazon-clone.PNG");
+const projImg8 = require("../assets/images/gitfivver-banner.PNG");
 
 const bg = require("../assets/images/bg.PNG");
 
@@ -76,14 +77,14 @@ export const Projects = () => {
       sites: false,
       component: true,
     },
-    // {
-    //   title: "Order Summary Component",
-    //   description: "Component Design Challenge. Hosted by  Github",
-    //   imgUrl: projImg5,
-    //   projLink: "https://abel254.github.io/order-summary-component-main/",
-    //   sites: true,
-    //   component: false
-    // },
+     {
+       title: "Fivver Banner",
+       description: "Banner for my fivver account. Hosted by Github",
+       imgUrl: projImg8,
+       projLink: "https://abel254.github.io/FivverBanner/",
+       sites: false,
+       component: true
+     },
   ];
 
   let websites = projects.filter((value) => {
