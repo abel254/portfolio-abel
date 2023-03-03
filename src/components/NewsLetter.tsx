@@ -3,7 +3,8 @@ import { Col, Row } from "react-bootstrap";
 
 export const NewsLetter = () => {
   return (
-    <Col lg={12}>
+    <section id="newsletter">
+      <Col lg={12}>
       <div className="newsletter-box">
         <Row>
           <Col lg={12} md={6} xl={5}>
@@ -20,5 +21,6 @@ export const NewsLetter = () => {
         </Row>
       </div>
     </Col>
+    </section>
   );
 };
