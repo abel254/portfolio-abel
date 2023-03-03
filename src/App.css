@@ -123,8 +123,10 @@ span.navbar-text{
   background-color: transparent;
   transition: .3s ease-in-out;
 }
-.navbar-text button span{
+.navbar-text button a{
   z-index: 1;
+  color: #fff;
+  text-decoration: none;
 }
 .navbar-text button::before{
   content: '';
@@ -236,6 +238,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
   align-items: center;
   background-color: transparent;
   border: none;
+}
+.banner button a{
+  color: white;
+  text-decoration: none;
 }
 .banner button svg{
   font-size: 25px;

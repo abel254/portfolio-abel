@@ -10,11 +10,21 @@ const projImg4 = require("../assets/images/product-preview-card2.PNG");
 const projImg5 = require("../assets/images/order-summary-component.PNG");
 const projImg6 = require("../assets/images/landing-page1.PNG");
 const projImg7 = require("../assets/images/amazon-clone.PNG");
+const projImg8 = require("../assets/images/personalblog-thumbnail.PNG");
 
 const bg = require("../assets/images/bg.PNG");
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Personal Blog",
+      description:
+        "Personal blog for posting weekly blogs on technological software updates and businesses that are embedded with technology. Hosted by Vercel. Still in Development...",
+      imgUrl: projImg8,
+      projLink: "https://personal-blog-ochre.vercel.app/",
+      sites: true,
+      component: false,
+    },
     {
       title: "Amazone Clone",
       description:

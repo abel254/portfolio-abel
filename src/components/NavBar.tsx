@@ -52,7 +52,7 @@ const NavBar = () => {
                 <a href="https://github.com/abel254" target='_blank'><BsGithub/></a>
                 <a href="https://twitter.com/abel26053879" target='_blank'><FaTwitter /></a>
             </div>
-            <button className="vvd" onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" ><a href="#newsletter">Let's Connect</a></button>
         </span>
       </Navbar.Collapse>
     </Container>
