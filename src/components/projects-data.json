@@ -1,0 +1,72 @@
+[
+    {
+      "title": "Personal Blog",
+     " description":
+        "Development in progress...",
+      "imgUrl": "../assets/images/personalblog-thumbnail.PNG",
+     "projLink": "https://personal-blog-ochre.vercel.app/",
+     "sites": true,
+     "component": false
+    },
+    {
+      "title": "Amazone Clone",
+      "description":
+        "Simplified amazone clone which fetches data from the Fake store rest API to create the prototype. Adds Items to Cart and Calculates the Total",
+      "imgUrl": "../assets/images/amazon-clone.PNG",
+      "projLink": "https://amazon-clone-sigma-ivory-29.vercel.app/#",
+      "sites": true,
+      "component": false
+    },
+    {
+      "title": "Personal Portfolio",
+      "description":
+        "Responsive personal portfolio: responsiveness enhanced using bootstrap, bootstrap breakpoints, and bootstrap responsive components. Hosted by Vercel",
+      "imgUrl": "../assets/images/portfolio.PNG",
+      "projLink": "#",
+      "sites": true,
+      "component": false
+    },
+    {
+      "title": "Extreme Drift",
+      "description":
+        "Responsive site: responsiveness enhanced using flexbox, grid, and relative units. Hosted by Vercel",
+      "imgUrl": "../assets/images/project.PNG",
+      "projLink":
+        "https://responsive-extremedrift-website-icq1n3lx8-abel254.vercel.app/",
+      "sites": true,
+      "component": false
+    },
+    {
+      "title": "NFT Preview Card Component",
+      "description": "Component Design Challenge. Hosted by Github",
+      "imgUrl": "../assets/images/preview-card.PNG",
+      "projLink":
+        "https://abel254.github.io/nft-preview-card-component-main-challenge/",
+      "sites": false,
+      "component": true
+    },
+    {
+      "title": "Product Preview Card Component",
+      "description": "Component Design Challenge. Hosted by  Github",
+      "imgUrl": "../assets/images/product-preview-card2.PNG",
+      "projLink":
+        "https://abel254.github.io/product-preview-card-component-main/",
+      "sites": false,
+      "component": true
+    },
+    {
+      "title": "Order Summary Component",
+      "description": "Component Design Challenge. Hosted by  Github",
+      "imgUrl": "../assets/images/order-summary-component.PNG",
+      "projLink": "https://abel254.github.io/order-summary-component-main/",
+      "sites": false,
+      "component": true
+    },{
+      "title": "Landing Page",
+      "description": "Landing Page. Hosted by Vercel",
+      "imgUrl": "../assets/images/landing-page1.PNG",
+      "projLink": "https://landing-page1-dusky.vercel.app/",
+      "sites": false,
+      "component": true
+    }
+  ]

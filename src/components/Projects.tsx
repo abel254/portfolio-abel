@@ -19,7 +19,8 @@ export const Projects = () => {
     {
       title: "Personal Blog",
       description:
-        "Personal blog for posting weekly blogs on technological software updates and businesses that are embedded with technology. Hosted by Vercel. Still in Development...",
+        // "Personal blog for posting weekly blogs on technological software updates and businesses that are embedded with technology. Hosted by Vercel. Still in Development...",
+        "Development in Progress...",
       imgUrl: projImg8,
       projLink: "https://personal-blog-ochre.vercel.app/",
       sites: true,
@@ -86,14 +87,6 @@ export const Projects = () => {
       sites: false,
       component: true,
     },
-    // {
-    //   title: "Order Summary Component",
-    //   description: "Component Design Challenge. Hosted by  Github",
-    //   imgUrl: projImg5,
-    //   projLink: "https://abel254.github.io/order-summary-component-main/",
-    //   sites: true,
-    //   component: false
-    // },
   ];
 
   let websites = projects.filter((value) => {
